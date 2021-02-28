@@ -1,0 +1,19 @@
+{
+    "name": "dervis/smart-message-engage",
+    "description": "Smart Message Engage SOAP Api Bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dervis Gelmez",
+            "email": "dervisgelmez@yandex.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SmartMessageEngage\\" : "src/"
+        }
+    },
+    "require": {
+    }
+}
