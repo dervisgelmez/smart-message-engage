@@ -2,6 +2,7 @@
 
 namespace SmartMessageEngage;
 
+use SmartMessageEngage\Types\ReportRequestType;
 use SmartMessageEngage\Types\SmsRequestType;
 
 class Request
@@ -16,5 +17,10 @@ class Request
     public function sms()
     {
         return new SmsRequestType($this->app);
+    }
+
+    public function check()
+    {
+        return new ReportRequestType($this->app);
     }
 }
