@@ -6,7 +6,7 @@ use SmartMessageEngage\Requests\IRequest;
 
 class Client
 {
-    const API = 'http://api.smartmessage-engage.com/Service.asmx?wsdl';
+    const API = 'http://api.smartmessage-engage.com/Service.asmx';
 
     /**
      * @var SmartMessage
